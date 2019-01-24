@@ -1,79 +1,31 @@
-    body {
-        background-color: lightblue;
-        font-size: 100%;
-        font-family:Arial, Helvetica, sans-serif;
-    }
-    ul {
-        list-style-type: none;
-        margin: 0;
-        padding: 0;
-        background-color: lightslategray;
-        overflow: visible;
-        position: fixed;
-        top: 0;
-        width: 100%;
-        border: 1px solid rgb(5, 94, 57);
-        border-style: groove;
-    }
-    li {
-        float: left;
-    }
-    li a {
-        display: block;
-        color: white;
-        padding: 15px;
-        text-decoration: none;
-        font-size: 20px;
-    }
-    li a:hover {
-        background-color: violet;
-    }
+body {
+  background-color: lightblue;
+  font-size: 100%;
+  font-family:Arial, Helvetica, sans-serif;
+  margin: 0;
+}
 
-    .pullright {
-        float: right;
-        margin-right: 20px;
-    }
+.btn {
+  width: 100%;
+}
 
-    ol {
-        margin-left: 30px;
-    }
-    header {
-        background-color: black;
-        font-size: 23px;
-        color: white;
-        margin-top: 47px;
-        padding: 2px;
-        text-align: center;
-    }
-    img {
-        display: block;
-        float: right;
-        width: 35%;
-        padding: 12px;
-        background-color:lightsteelblue;
-    }
-    h2, h3, h4, h5, h6 {
-        text-align: left;
-        padding: 5px;
-        margin-left: 45px;
-        font-size: 20px;
-    }
-    p {
-        margin-left: 45px;
-        text-indent: 35px;
-        margin-right: 50%;
-    }
-    .goalslist {
-        float: none;
-    }
-    .thingsienjoy {
-        margin-left: 55px;
-        float: none;
-    }
-    ul.b {
-        margin-left: 45px;
-    }
-    input[type=text], select {
-        border-radius: 4px;
-        width: 200px;
-    }
+.form-control-message {
+  height: 100px;
+}
+
+h1 {
+  padding: 25px;
+  background-color: rgb(0, 0, 0, .9);
+  color: white;
+}
+
+.container {
+  margin-left: 25px;
+  padding-left: 15px;
+}
+
+img {
+  width: 355px;
+  margin-top: 40px;
+  border: solid steelblue 5px;
+}
