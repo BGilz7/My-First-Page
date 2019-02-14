@@ -1,0 +1,56 @@
+{% extends 'base.html' %}
+
+{% block title %}
+  {{ super() }} - Home
+{% endblock %}
+
+{% block app_content %}
+<div class="container">
+  <div class="row">
+    <div class="col-md-8">
+      <h2 id="chapter1">Background:</h2>
+        <p>My background has been anything but linear. I graduated from UMass Amherst two years ago with a degree in kinesiology on the pre-med track. Since then I have worked in finance at a large investment bank called <a href="https://fa.morganstanley.com/karelitzgroup/index.htm" target="_blank">Morgan Stanley</a>, and I have worked in sales for a startup called OpsGenie. Although I do not want to pursue a career in finance or sales, I learned a lot from my professional experiences and am grateful that it helped bring me to where I am now. </p>
+      <h2 id="chapter2">Interest in Programming:</h2>
+        <p>Toward the end of college I knew I wanted to work in some field of engineering. I like working on projects, solving problems, and using computers. I spent a lot of time on the internet looking at career paths trying to figure out what would be right for me. Everything I found seemed to point to software. Software is used in our everyday lives and it is basically taking over the world. I knew a few kids who were programmers, some with a CS degree and others who went to bootcamps. They gave me a few websites to practice on (for example <a href="https://www.freecodecamp.org" target="_blank">FreeCodeCamp</a>), and after playing around on those sites for a few months I applied to Coding Temple. It can definitely be frustrating and it will be difficult to learn, but it seems that once you get the hang of it the possibilities will be endless. </p>
+      <h2 id="chapter3">Goals:</h2>
+        <ol>
+          <li>Ideally work for a startup</li>
+          <li>Somehow use my background in kinesiology
+          </li>
+          <li>Create a product of my own</li>
+        </ol>
+      <h2 id="chapter4">Things I Enjoy:</h2>
+        <ul>
+          <li>Skiing</li>
+          <li>Basketball</li>
+          <li>Just picked up the guitar</li>
+          <li>Hiking</li>
+          <li>The Beach</li>
+          <li>Fortnite</li>
+        </ul>
+      <h2 id="chapter5">Contact Me:</h2>
+      <form>
+        <div class="form-group">
+          <label for="exampleInputEmail1">Email address:</label>
+          <input type="email" class="form-control email" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email address">
+        </div>
+        <div class="form-group">
+          <label for="exampleInputPassword1">Message:</label>
+          <input type="text" class="form-control form-control-message" id="examplemessage" placeholder="Your message here...">
+        </div>
+        <button type="submit" class="btn btn-success">Submit</button>
+      </form>
+    </div>
+      <div class="col-md-4">
+        <img src="./first_page_images/headshot.png" alt="linkedin headshot">
+        <img src="./first_page_images/skiing.jpeg" alt="skiing at Sugarbush">
+        <img src="./first_page_images/skydiving.png" alt="skiing at Sugarbush">
+      </div>
+    </div> <!-- ends row -->
+  </div> <!-- ends container -->
+{% endblock %}
+
+
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
