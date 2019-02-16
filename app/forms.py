@@ -1,8 +1,8 @@
 from flask_wtf import FlaskForm
 from wtforms import StringField, SubmitField
-from wtforms.validators import DataRequired
+from wtforms.validators import DataRequired, Email
 
-class PostForm(FlaskForm):
-    email = StringField('Enter message here ', validators=[DataRequired()])
-    message = StringField('Enter message here ', validators=[DataRequired()])
+class EmailForm(FlaskForm):
+    email = StringField('Email:', validators=[DataRequired(), Email()])
+    message = StringField('Message:', validators=[DataRequired()])
     submit = SubmitField('Submit')
